@@ -1,4 +1,20 @@
-﻿body
-{
-    background-color: gray;
+﻿body, html{
+    height: 100%;
+}
+
+.container-fluid{
+    padding: 0rem;
+}
+
+#master-container-background{
+    background-color: #ffffff;
+    background-image: url("/Assets/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+div .container{
+    margin-top: 20%;
 }
