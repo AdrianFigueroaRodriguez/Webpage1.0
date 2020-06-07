@@ -1,88 +1,79 @@
-﻿body, html{
+﻿ html, body{
+    height: 100%;
+    width: auto;
+ }
+
+ .container-fluid{
+    background-color: #ffffff;
+    padding: 26px 26px 26px 26px;
+}
+
+body{
+    width: 100%;
     height: 100%;
 }
 
-@media (max-width:1366px){
-    /* Basic background and format Setup*/
-    .container-fluid{
-        padding: 26px 26px 26px 26px;
-        background-color: #ffffff;
-    }
-    
-    body{
-        background-color: #ffffff;  
-        width: 1366px;
-        height: 632px;
-    }
-    
-    header{
-        width: 100%;
-        height: 0px;
-    }
-    
-    nav{
-        padding: 26px 26px 0px 26px;
-        width: 100%;
-        height: 52px;
+header{
+    width: 100%;
+    height: 0px;
+}
 
-    }
-    
-    section{
-        width: 100%;
-        height: 562px;
-    }
-    
-    footer{
-        width: 100%;
-        height: 40px;
-    }
-    /* Basic background and format Setup*/
+nav{
+    float: right;
+}
 
-    /*Nav bar content*/
-    .container-fc{
-        background-image: url("../Assets/Background.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        margin: 0px;
-        padding: 0px;        
-    }
+section{
+    padding-top: 30px;
+}
 
-    #nav-hamburger-icon{
-        width: 26px;
-        height: 26px;
-        float: right; 
-    }
+footer{
 
-    #hamburger-icon{
-        width: 100%;
-        height: 100%;
-        margin-bottom:  4px;
-    }
-    /*Nav bar content */
+}
 
-    /* Section content */
+#body-container{
+    height: 100%;
+    padding: 26px 26px 26px 26px;
+    background-image: url("/Assets/Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 0px;
+    height: 100%;
+}
 
-    img#logo-figueroasClean{
-        min-width: 300px;
-        min-height: 300px;
-        max-width: 330px;
-        max-height: 330px;
+#col1{
+    background-color: green;
+}
 
-    }
+#col2{
+    background-color: pink;
+}
 
-    #logo-container{
-        display: block;
-        margin-left: 37.5%;
-        margin-right: 37.5%;
-        margin-top: -78px;
-    }
+#col3{
+    background-color: greenyellow;
+}
 
-    #text-container{
-        width: 400px;
-        height: 200px;
-        padding-top: 50px;
-        margin-left: 37.5%;
-        margin-right: 37.5%;
-        text-align: center;
-    }
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1920px){ 
+
+}

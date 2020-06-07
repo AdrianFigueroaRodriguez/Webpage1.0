@@ -4,9 +4,11 @@
 
 <head>
     <title>Figueroas Clean</title>
+    <link rel="icon" href="Assets/Logo Figueroas Clean.png" type="image/x-icon">
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
 
     <!-- Bootstrap conection -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -24,24 +26,38 @@
     <script src="JS/index.js"></script>
 </head>
     <body class="container-fluid">
-        <div class="container-fc">
-            <header></header>
-            <!--Hamburger Icon-->
-            <nav>
-                <div id="nav-hamburger-icon">
-                    <img id="hamburger-icon" src="Assets/Navbar - Menu@2x.png">
-                </div>
-            </nav>
-            <!--Logo Figueroas Clean-->
-            <section>
-                <div id="logo-container">
-                    <img id="logo-figueroasClean" src="Assets/Logo Figueroas Clean.png">
-                </div>
-                <div id="text-container">
-                        Text container area
-                </div>
-            </section>
-            <footer></footer>
-        </div>
+        <header></header>
+            <div class="container col-12 col-sm-12 col-md-12 col-lg-12" id="body-container">
+                <!-- Nav items -->
+                <nav>
+                    <!-- All the nav items go here -->
+                    <div id="nav-hamburger-icon">
+                        <img id="hamburger-icon" src="Assets/Navbar - Menu@2x.png">
+                    </div>
+                </nav>
+                <!-- Content container -->
+                <section>
+                <!-- Requieres proper formating-->
+                    <div class="row">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 d-none d-sm-block " id="col1">
+                            <p>Espacio en blanco</p>
+                        </div>
+                        <div class="col-12 col-sm-8 col-md-8 col-lg-8" id="col2">
+                            <img class="img-fluid rounded mx-auto d-block" src="Assets/Logo Figueroas Clean.png">
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 d-none d-sm-block " id="col3">
+                            <p>Espacio en blanco</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-2"></div>
+                        <div class="col-10 col-sm-8 col-md-8 col-lg-8">
+                            <img class="img-fluid rounded mx-auto d-block" src="Assets/Contenedor de texto - Copy.png">
+                        </div>
+                        <div class="col-2"></div>
+                    </div>
+                </section>
+                <footer></footer>
+            </div>
     </body>
 </html>
