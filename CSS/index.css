@@ -24,14 +24,14 @@ nav{
 
 section{
     padding-top: 30px;
+    height: 95%;
 }
 
 footer{
-
+    height: 5%;
 }
 
 #body-container{
-    height: 100%;
     padding: 26px 26px 26px 26px;
     background-image: url("/Assets/Background.png");
     background-size: cover;
@@ -45,26 +45,69 @@ footer{
     background-color: green;
 }
 
-#col2{
-    background-color: pink;
-}
-
 #col3{
     background-color: greenyellow;
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+    #hamburger-icon{
+        max-height: 25px;
+        height: 25px;
+    }
 
+    #logo-col{
+        padding-top: 50px;
+        max-height: 410px;
+    }
+
+    #container-col{
+        padding-top: 15px;
+    }
 }
 
 /* small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
+    #hamburger-icon{
+        max-height: 25px;
+        height: 25px;
+    }
 
+    #logo-col{
+        padding-top: 50px;
+        max-height: 410px;
+    }
+
+    #container-col{
+        padding-top: 15px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
+    #hamburger-icon{
+        max-height: 25px;
+        height: 25px;
+    }
+
+    #logo-col{
+        padding-top: 50px;
+    }
+
+    #container-col{
+        padding-top: 15px;
+    }
+
+    .row #r1{
+        max-height: 464px;
+        height: auto;
+    }
+
+    .row #r2{
+        max-height: 165px;
+        height: auto;
+    }
+
 
 }
 
