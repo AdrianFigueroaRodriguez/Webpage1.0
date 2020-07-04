@@ -1,11 +1,34 @@
-﻿html, body{
+﻿/* Initial page view */
+html, body{
     height: 100%;
     width: auto;
 }
 
 body{
     background-color: #ffffff;
+    min-width: 782px;
+    min-height: 630px;
     padding: 26px 26px 26px 26px;
+}
+
+header{
+    width:100%;
+    height: 0%;
+}
+
+nav{
+    width: 100%;
+    height: 30px;
+}
+
+section{
+    width: 100%;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    height: 20px;
 }
 
 .container-fluid{
@@ -15,96 +38,33 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 26px 26px 26px 26px;
+    overflow: hidden;
+}
 
+#NavbarContainer{
+    width: 100%;
+    
+}
+
+#Menu{
+    float: right;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+}
+
+#ReturnMenu{
+    float: right;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+    visibility: hidden;
+}
+
+#Logo{
+    padding-bottom: 15px;
 }
 
 
- /*
-section{
-    padding-top: 30px;
-    height: 95%;
+#Mini-Icon-Container{
+    
 }
-
-footer{
-    height: 5%;
-}
-
-#col1{
-    background-color: green;
-}
-
-#col3{
-    background-color: greenyellow;
-}*/
-
-/* Extra small devices (portrait phones, less than 576px) */
-/*@media (max-width: 575.98px) {
-    #hamburger-icon{
-        max-height: 25px;
-        height: 25px;
-    }
-
-    #logo-col{
-        padding-top: 50px;
-        max-height: 410px;
-    }
-
-    #container-col{
-        padding-top: 15px;
-    }
-}*/
-
-/* small devices (landscape phones, 576px and up) */
-/*@media (min-width: 576px) and (max-width: 767.98px) {
-    #hamburger-icon{
-        max-height: 25px;
-        height: 25px;
-    }
-
-    #logo-col{
-        padding-top: 50px;
-        max-height: 410px;
-    }
-
-    #container-col{
-        padding-top: 15px;
-    }
-}*/
-
-/* Medium devices (tablets, 768px and up) */
-/*@media (min-width: 768px) and (max-width: 991.98px) { 
-    #hamburger-icon{
-        max-height: 25px;
-        height: 25px;
-    }
-
-    #logo-col{
-        padding-top: 50px;
-    }
-
-    #container-col{
-        padding-top: 15px;
-    }
-
-    .row #r1{
-        max-height: 464px;
-        height: auto;
-    }
-
-    .row #r2{
-        max-height: 165px;
-        height: auto;
-    }
-
-
-}*/
-
-/* Large devices (desktops, 992px and up) */
-/*@media (min-width: 992px) and (max-width: 1199.98px) { 
-
-}*/
-
-/* Extra large devices (large desktops, 1200px and up) */
-/*@media (min-width: 1200px) and (max-width: 1920px){ 
-
-}*/
+/* End of Initial page view */
