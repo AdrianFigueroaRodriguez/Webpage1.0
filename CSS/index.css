@@ -1,4 +1,4 @@
-﻿/* Initial page view */
+﻿/* Main element setup */
 html, body{
     height: 100%;
     width: auto;
@@ -10,15 +10,16 @@ body{
     min-height: 630px;
     padding: 26px 26px 26px 26px;
 }
-
+/* Header is empty */
 header{
     width:100%;
     height: 0%;
 }
 
+/* Navbar will be fully shown after initial screen */
 nav{
     width: 100%;
-    height: 30px;
+    height: 70px; /*default:30px , has to change to 70px after the initial screen */
 }
 
 section{
@@ -30,41 +31,142 @@ footer{
     width: 100%;
     height: 20px;
 }
+/* End of main element setup */
 
 .container-fluid{
     width: auto;
     height: 100%;
-    background-image: url("/Assets/Background.png");
+    background-image: url("/Assets/Initial\ Start\ -\ Background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 26px 26px 26px 26px;
+    padding: 0px 0px 0px 0px;
     overflow: hidden;
 }
 
+.visible, #NavbarContainer{
+    /* Only when on initial screen is it to be hidden*/
+    /*visibility: hidden !important;*/
+}
+
+/* Hide for initial screen */
 #NavbarContainer{
     width: 100%;
-    
+    height: 70px; /*default:30px , has to change to 70px after the initial screen */
+    margin-right: 0px;
+    margin-left: 0px;
+    background-image: url("/Assets/Navbar\ -\ Background.svg"); /*default: background-image: none*/
+}
+
+#Mini-logo-Container{
+    padding: 1.5px 0px;
+    max-width: 148px;
+}
+
+#Mini-logo{
+    margin: 0px 40px 0px 26px;
+    max-width: 81px;
+    max-height: 65;
+}
+
+#Navbar-Inicio-Option{
+    padding: 18.5px 40px 26.5px 0px;
+    min-width: 78px;
+    max-width: 78px;
+}
+
+#Navbar-Inicio{
+    min-width: 38px;
+    max-width: 38px;
+    min-height: 17px;
+    max-height: 17px;
+}
+
+#Navbar-NuestrosServicios-Option{
+    padding: 18.5px 40px 26.5px 0px;
+    min-width: 171px;
+    max-width: 171px;
+}
+
+#Navbar-NuestrosServicios{
+    min-width: 131px;
+    max-width: 131px;
+    min-height: 17px;
+    max-height: 17px;
+}
+
+#Navbar-Cotizaciones-Option{
+    padding: 18.5px 40px 26.5px 0px;
+    min-width: 132px;
+    max-width: 132px;
+}
+
+#Navbar-Cotizaciones{
+    min-width: 92px;
+    max-width: 92px;
+    min-height: 17px;
+    max-height: 17px;
+}
+
+#Navbar-Contactanos-Option{
+    padding: 22.5px 40px 18.5px 0px;
+    min-width: 130px;
+    max-width: 130px;
+}
+
+#Navbar-Contactanos{
+    min-width: 90px;
+    max-width: 90px;
+    min-width: 29px;
+    max-height: 29px;
+}
+
+#Search-Box-Container{
+    min-width: 280px;
+    padding: 26px 0px;
+}
+
+#Search-Box{
+    width: 223px;
+    max-height: 16px;
+    border: none;
+    background-color: transparent;
+    background-image: url("/Assets/Navbar\ -\ Searchbox.svg");
+    float: right;
+    padding: 0px 7px;
+}
+
+#Search-Icon-Container{
+    padding: 0px;
+    max-width: 36px;
+}
+
+#Search-Icon{
+    float: right;
+    padding: 27px 0px;
+}
+
+#Notification-Icon-Container{
+    padding: 0px;
+    max-width: 46px;
+}
+
+#Notification{
+    float: right;
+    padding: 27px 0px 27px 0px;
+}
+
+#Menu-Icon-Container{
+    padding: 0px;
+    max-width: 73px;
 }
 
 #Menu{
     float: right;
-    padding-top: 7.5px;
-    padding-bottom: 7.5px;
+    padding: 28px 26px 28px 0px;
 }
 
-#ReturnMenu{
-    float: right;
-    padding-top: 7.5px;
-    padding-bottom: 7.5px;
-    visibility: hidden;
-}
+
 
 #Logo{
     padding-bottom: 15px;
 }
-
-
-#Mini-Icon-Container{
-    
-}
-/* End of Initial page view */
