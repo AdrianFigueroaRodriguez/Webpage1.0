@@ -6,7 +6,7 @@ html, body{
 
 body{
     background-color: #ffffff;
-    min-width: 782px;
+    min-width: 1098px;
     min-height: 630px;
     padding: 26px 26px 26px 26px;
 }
@@ -28,9 +28,10 @@ section{
 }
 
 footer{
-    width: 100%;
-    height: 20px;
+    width: 100%;    /* Initial screen height: 0px, Main screen height ?px*/
+    height: auto; 
 }
+
 /* End of main element setup */
 
 .container-fluid{
@@ -39,22 +40,22 @@ footer{
     background-image: url("/Assets/Initial\ Start\ -\ Background.png");
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0px 0px 0px 0px;
+    padding: 0px;
     overflow: hidden;
 }
 
-.visible, #NavbarContainer{
-    /* Only when on initial screen is it to be hidden*/
-    /*visibility: hidden !important;*/
+.row{
+    margin: 0px;
 }
 
-/* Hide for initial screen */
+/* Hide for main screen */
+
+/* NOT RESPONSIVE !! */
 #NavbarContainer{
     width: 100%;
     height: 70px; /*default:30px , has to change to 70px after the initial screen */
-    margin-right: 0px;
-    margin-left: 0px;
     background-image: url("/Assets/Navbar\ -\ Background.svg"); /*default: background-image: none*/
+    position: block; /*Needs fixing*/
 }
 
 #Mini-logo-Container{
@@ -120,53 +121,69 @@ footer{
     max-height: 29px;
 }
 
+/** Eidicon apartir de aqui */
 #Search-Box-Container{
-    min-width: 280px;
+    min-width: 223px;
+    max-width: 223px;
     padding: 26px 0px;
 }
 
 #Search-Box{
     width: 223px;
     max-height: 16px;
+    padding: 0px 7px;
     border: none;
     background-color: transparent;
     background-image: url("/Assets/Navbar\ -\ Searchbox.svg");
-    float: right;
-    padding: 0px 7px;
+}
+
+#Icon-Container{   
+    padding: 0px;
+    justify-content: flex-end;
+    display: flex;
 }
 
 #Search-Icon-Container{
     padding: 0px;
-    max-width: 36px;
+    min-width: 36px;
+    float: right;
 }
 
 #Search-Icon{
+    padding: 0px 0px 0px 30px;
     float: right;
-    padding: 27px 0px;
 }
 
 #Notification-Icon-Container{
     padding: 0px;
-    max-width: 46px;
+    min-width: 46px;
+    float: right;
 }
 
 #Notification{
+    padding: 0px 0px 0px 30px;
     float: right;
-    padding: 27px 0px 27px 0px;
 }
 
 #Menu-Icon-Container{
     padding: 0px;
-    max-width: 73px;
+    min-width: 73px;
+    float: right;
 }
 
 #Menu{
+    padding: 28px 26px 28px 30px;
+    max-width: 73px;
     float: right;
-    padding: 28px 26px 28px 0px;
+
 }
-
-
 
 #Logo{
     padding-bottom: 15px;
 }
+
+#Slogan{
+    max-width:683px;
+    padding-bottom: 15px;
+}
+
