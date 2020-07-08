@@ -187,3 +187,10 @@ footer{
     padding-bottom: 15px;
 }
 
+.PantallPrincipal{
+    visibility: visible; /* invisble; cuando esta ya en la segunda pantalla */
+}
+
+.AmbasPantallas{
+    visibility: visible;
+}
