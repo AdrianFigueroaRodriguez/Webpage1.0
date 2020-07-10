@@ -29,7 +29,8 @@ section{
 
 footer{
     width: 100%;    /* Initial screen height: 0px, Main screen height ?px*/
-    height: auto; 
+    height: auto;
+
 }
 
 /* End of main element setup */
@@ -109,7 +110,7 @@ footer{
 }
 
 #Navbar-Contactanos-Option{
-    padding: 22.5px 40px 18.5px 0px;
+    padding: 18.5px 40px 26.5px 0px;
     min-width: 130px;
     max-width: 130px;
 }
@@ -117,8 +118,8 @@ footer{
 #Navbar-Contactanos{
     min-width: 90px;
     max-width: 90px;
-    min-width: 29px;
-    max-height: 29px;
+    min-width: 17px;
+    max-height: 17px;
 }
 
 /** Eidicon apartir de aqui */
@@ -187,10 +188,14 @@ footer{
     padding-bottom: 15px;
 }
 
-.PantallPrincipal{
-    visibility: visible; /* invisble; cuando esta ya en la segunda pantalla */
+.PantallInicial{
+    visibility: visible;
 }
 
-.AmbasPantallas{
+.PantallPrincipal{
+    visibility: hidden; /* invisble; cuando esta ya en la segunda pantalla */
+}
+
+.PantallaGlobal{
     visibility: visible;
 }
