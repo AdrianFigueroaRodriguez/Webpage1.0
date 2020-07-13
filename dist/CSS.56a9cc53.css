@@ -1,4 +1,4 @@
-﻿/* Main element setup */
+/* Main element setup */
 html, body{
     height: 100%;
     width: auto;
@@ -38,7 +38,7 @@ footer{
 .container-fluid{
     width: auto;
     height: 100%;
-    background-image: url("/Assets/Initial\ Start\ -\ Background.png");
+    background-image: url("/1d11e4d42810b917fcf32c7a88f9fb19.png");
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0px;
@@ -55,7 +55,7 @@ footer{
 #NavbarContainer{
     width: 100%;
     height: 70px; /*default:30px , has to change to 70px after the initial screen */
-    background-image: url("/Assets/Navbar-Background.svg"); /*default: background-image: none*/
+    background-image: url("/8f74ae931cd9494e90e0e0f1bc6beeff.svg"); /*default: background-image: none*/
     position: block; /*Needs fixing*/
 }
 
@@ -135,7 +135,7 @@ footer{
     padding: 0px 7px;
     border: none;
     background-color: transparent;
-    background-image: url("/Assets/Navbar\ -\ Searchbox.svg");
+    background-image: url("/0e1faddb3edf367c58fbd7d6bed2a19a.svg");
 }
 
 #Icon-Container{   
@@ -199,3 +199,5 @@ footer{
 .PantallaGlobal{
     visibility: visible;
 }
+
+/*# sourceMappingURL=/CSS.56a9cc53.css.map */
